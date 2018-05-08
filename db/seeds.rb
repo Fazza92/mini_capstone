@@ -1,7 +1,18 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+product = Products.new(name: "Zone harness", price: 79, img_url: "https://i.stpost.com/black-diamond-equipment-aspect-climbing-harness-for-men-in-deep-blue~p~5206v_02~440~40.2.jpg", description: "The lightest Black Diamond harness built for routes that require maximum focus and minimum weight, the Zone is the ultimate sport climbing workhorse" )
+product.save
+
+product = Products.new(name: "Zone harness", price: 79, img_url: "https://i.stpost.com/black-diamond-equipment-aspect-climbing-harness-for-men-in-deep-blue~p~5206v_02~440~40.2.jpg", description: "The lightest Black Diamond harness built for routes that require maximum focus and minimum weight, the Zone is the ultimate sport climbing workhorse" )
+product.save
+
+product = Products.new(name: "Zone harness", price: 79, img_url: "https://i.stpost.com/black-diamond-equipment-aspect-climbing-harness-for-men-in-deep-blue~p~5206v_02~440~40.2.jpg", description: "The lightest Black Diamond harness built for routes that require maximum focus and minimum weight, the Zone is the ultimate sport climbing workhorse" )
+product.save
+
+product = Products.new(name: "Zone harness", price: 79, img_url: "https://i.stpost.com/black-diamond-equipment-aspect-climbing-harness-for-men-in-deep-blue~p~5206v_02~440~40.2.jpg", description: "The lightest Black Diamond harness built for routes that require maximum focus and minimum weight, the Zone is the ultimate sport climbing workhorse" )
+product.save
+
+product = Products.new(name: "Zone harness", price: 79, img_url: "https://i.stpost.com/black-diamond-equipment-aspect-climbing-harness-for-men-in-deep-blue~p~5206v_02~440~40.2.jpg", description: "The lightest Black Diamond harness built for routes that require maximum focus and minimum weight, the Zone is the ultimate sport climbing workhorse" )
+product.save
+
+product = Products.new(name: "Zone harness", price: 79, img_url: "https://i.stpost.com/black-diamond-equipment-aspect-climbing-harness-for-men-in-deep-blue~p~5206v_02~440~40.2.jpg", description: "The lightest Black Diamond harness built for routes that require maximum focus and minimum weight, the Zone is the ultimate sport climbing workhorse" )
+product.save
+
