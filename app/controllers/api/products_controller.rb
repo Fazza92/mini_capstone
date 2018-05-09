@@ -5,7 +5,7 @@ class Api::ProductsController < ApplicationController
   end
 
   def all_climbing_product
-    @product = Product.all
+    @products = Product.all
     render 'all_climbing_product_view.json.jbuilder'
   end
 end
