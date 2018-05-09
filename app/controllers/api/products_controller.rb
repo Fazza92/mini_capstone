@@ -8,4 +8,5 @@ class Api::ProductsController < ApplicationController
     @products = Product.all
     render 'all_climbing_product_view.json.jbuilder'
   end
+
 end
