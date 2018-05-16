@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   namespace :api do
-    get '/climbing_products_url' => 'products#climbing_product_action'
-    get '/climbing_product_url' => 'products#all_climbing_product_action'
-    get '/climbing_product_url' => 'products#second_climbing_product_action'
-
+  get '/products' => 'products#index'
+  post '/products' => 'products#create'
+  get '/products' => 'products#show'
+  patch '/products/:id' => 'products#update'
+  delete '/products/:id' => 'products#destroy'
   end
 end
